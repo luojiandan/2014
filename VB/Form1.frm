@@ -9,6 +9,14 @@ Begin VB.Form Form1
    ScaleHeight     =   3195
    ScaleWidth      =   4680
    StartUpPosition =   3  '¥∞ø⁄»± °
+   Begin VB.CommandButton Command3 
+      Caption         =   "Command3"
+      Height          =   525
+      Left            =   1740
+      TabIndex        =   2
+      Top             =   660
+      Width           =   1245
+   End
    Begin VB.CommandButton Command2 
       Caption         =   "Command2"
       Height          =   525
@@ -37,4 +45,8 @@ End Sub
 
 Private Sub Command2_Click()
   MsgBox "≤‚ ‘GitHub,Command2", vbInformation
+End Sub
+
+Private Sub Command3_Click()
+  MsgBox "≤‚ ‘GitHub,Command3", vbInformation
 End Sub
